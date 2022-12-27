@@ -1,0 +1,132 @@
+.mydiv {
+	width: 1350px;
+	height: 550px;
+	background-color: #916CCC; }
+
+.snow {
+	animation: snow 5s infinite;
+	position: relative;
+}
+
+@keyframes snow {
+	0%   {background: ; left: 0px; top: 0px;}
+  25%  {background: ; left: 0px; top: 0px;}
+  50%  {background: ; left: 190px; top: 190px;}
+  75%  {background: ; left: 0px; top: 0px;}
+  100% {background: ; left: 0px; top: 0px;}
+	
+}
+
+.snow7 {
+	animation: snow 7s infinite;
+	position: relative;
+}
+
+@keyframes snow7 {
+  
+	from { top: 0px; }
+	to { top: 200px; }
+}
+
+
+.snow1 {
+	animation: snow 15s infinite;
+	position: relative;
+}
+
+@keyframes snow1 {
+	
+	from { top: 0px; }
+	to { left: 200px; }
+}
+
+.snow3 {
+	animation: snow 3s infinite;
+	position: relative;
+}
+
+@keyframes snow3 {
+	from { top: 0px; }
+	to { left: 200px; }
+
+}
+
+
+
+.futer{
+	
+	
+	display: inline-block;
+	margin-top: 44px;
+	width: 800px;
+	height: 330px;
+
+
+}
+.house {
+	
+	top: 50%;
+	left: 50%;
+	margin-bottom:50px;
+	margin-right:45px ;
+	display: inline-block;
+	width: 500px;
+	height: 300px;
+
+
+}
+
+
+.santa {
+	width: 300px;
+	height: 100px;
+}
+
+.happy {
+	font-size: 100px;
+	position: relative;
+	margin-left: 50px;
+	padding-top: 70px;
+	font-family: 'Rubik Bubbles', cursive;
+    text-shadow: 2px 2px #FF0000;
+
+  }
+
+  .happy:hover {
+
+  	transform: rotate(5deg);
+  }
+
+	
+.santa2 {
+	width: 90px;
+	height: 80px;
+	position: absolute;
+	padding-top: 30px;
+}
+
+.santa3 {
+
+width: 180px;
+height: 150px;
+
+}
+
+ .claus2 {
+
+ 	width: 90px;
+ 	height: 50px;
+
+
+ }
+
+.claus2 {
+	animation: claus2  10s infinite;
+	position: relative;
+
+}
+
+ @keyframes claus2 {
+ 	from { top: 0px; }
+	to { left: 500px; }
+ }
